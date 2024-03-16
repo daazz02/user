@@ -6,6 +6,11 @@ public class Whale extends Cow {
         blood();
         speedWhale(60);
         heart();
+        cat();
+    }
+    public void cat(){
+        int a = 70;
+        System.out.println(a + "me");
     }
 
     public void coW(String whale) {
